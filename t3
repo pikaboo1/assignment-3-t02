@@ -1,0 +1,12 @@
+location1 = "left"
+location2 = "middle"
+location3 = "right"
+
+left_val = "-" * 16
+mid_val = "-" * 7
+end_val = "-" * 15
+
+
+print(f'{location1}{left_val}')
+print(f'{mid_val}{location2}{mid_val}')
+print(f'{end_val}{location3}')
