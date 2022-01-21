@@ -1,0 +1,4 @@
+number = float(input('Enter number:'))
+percent = float(input('Enter discount percentage:'))
+total = (number * (percent / 100))
+print(
